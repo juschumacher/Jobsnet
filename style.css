@@ -1,0 +1,74 @@
+#logo {
+    padding-left: 60px;
+}
+
+.cadastro{
+    text-align: center;
+    margin-top: 100px;
+}
+.row {
+margin:10px;
+padding: 0 60px;
+}
+
+.Cadastro {
+    text-align: left;
+    padding-left: 75px;
+}
+
+.form-control {
+    background-color: rgb(247, 247, 247);
+   
+}
+
+.form-select {
+    background-color: rgb(247, 247, 247);
+}
+
+.btn-primary {
+    align: center;
+    color: #fff;
+    background-color: #5700a8;
+    border-color:  #5700a8;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 77px;
+    
+}
+
+.btn-primary:hover {
+    background-color: #8556b1;
+    border-color:  #5700a8;
+}
+
+.col {
+    width: 400px
+}
+
+.col-md-6 {
+    width: 300px;
+}
+
+.col-md-4 {
+    width: 300px;
+}
+
+.col-12 {
+    width: 500px;
+}
+
+.col-12{
+    width: 300px;
+}
+
+.navbar {
+    background: linear-gradient(
+90deg
+, rgb(240, 236, 236) 0%,#6304bd 100% );
+ height: 100px;
+ padding-bottom: 20px;
+}
+
+.Cadastro {
+    padding-top: 50px;
+}
