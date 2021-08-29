@@ -1,0 +1,88 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "API do JobsNET",
+      "description": "AOI do projeto JobsNET, Gama Academy",
+      "version": "0.0.1"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:5000"
+      }
+    ],
+    "paths": {
+      "/register": {
+        "post": {
+          "summary": "Formulário",
+          "description": "Rota de cadastro",
+          "tags": [
+            "candidato"
+          ],
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "nome": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "cpf": {
+                      "type": "string"
+                    },
+                    "dataNascimento": {
+                      "type": "string"
+                    },
+                    "genero": {
+                      "type": "string"
+                    },
+                    "cep": {
+                      "type": "string"
+                    },
+                    "endereco": {
+                      "type": "string"
+                    },
+                    "bairro": {
+                      "type": "string"
+                    },
+                    "complemento": {
+                      "type": "string"
+                    },
+                    "cidade": {
+                      "type": "string"
+                    },
+                    "estado": {
+                      "type": "string"
+                    },
+                    "profissao": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "examples": {
+                  "eu": {
+                    "value": {
+                      "nome": "Julia Schm",
+                      "email": "juliaschm@email.com",
+                      "cpf": "12345678908",
+                      "dataNascimento": "1004998",
+                      "genero": "Feminino",
+                      "cep": "89949999",
+                      "endereco": "SQS 311",
+                      "bairro": "Asa Sul",
+                      "complemento": "apt 506",
+                      "cidade": "Brasília",
+                      "estado": "DF",
+                      "profissao": "Designer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
